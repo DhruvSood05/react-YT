@@ -11,16 +11,7 @@ const App = () => {
 
   return (
     <>
-      <div>
-        <input
-          onChange={function (elem) {
-            inputChanging(elem.target.value);
-          }}
-          className="bg-gray-200 p-2 m-2 rounded-lg"
-          type="text"
-          placeholder="Enter you name"
-        />
-      </div>
+      <div></div>
     </>
   );
 };
